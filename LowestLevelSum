@@ -34,9 +34,9 @@
             if (lowestLevelSum > sum) {
                 lowestLevelSum = sum;
                 sum = 0;
-            } else {
-                sum = 0;
             }
+            sum = 0;
+         
         }
 
         return lowestLevelSum;
